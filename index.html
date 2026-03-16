@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achievers Academy | Crack CG PSC & Vyapam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <span>Achievers Academy</span>
+      </div>
+      
+      <!-- Desktop Nav -->
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#courses" class="nav-link">Courses</a>
+        <a href="#test-series" class="nav-link">Test Series</a>
+        <a href="#study-material" class="nav-link">Study Material</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <button class="btn btn-primary login-trigger desktop-only">Login</button>
+        <button id="mobile-menu-btn" class="hamburger mobile-only" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Sliding Overlay -->
+  <div id="mobile-menu" class="mobile-menu-overlay">
+    <div class="mobile-menu-content">
+      <div class="mobile-menu-header">
+        <div class="logo">
+          <div class="logo-icon"></div>
+          <span>ExamMaster</span>
+        </div>
+        <button id="close-mobile-menu" class="close-btn">&times;</button>
+      </div>
+      <nav class="mobile-nav">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#courses" class="mobile-nav-link">Courses</a>
+        <a href="#test-series" class="mobile-nav-link">Test Series</a>
+        <a href="#study-material" class="mobile-nav-link">Study Material</a>
+        <a href="#job-alerts" class="mobile-nav-link">Job Alerts</a>
+        <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <div class="mobile-menu-footer">
+        <button class="btn btn-primary login-trigger full-width">Login to Account</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding anim-trigger fade-down">
+      <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+      </div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge badge-accent">Best Coaching Institute 2026</span>
+          <h1 class="hero-title">Crack CG PSC & CG Vyapam with <span class="text-highlight">Expert Guidance</span></h1>
+          <p class="hero-subtitle">Access live + recorded classes, premium test series, and top-tier study material to secure your dream government job.</p>
+          <div class="hero-buttons">
+            <a href="#courses" class="btn btn-primary btn-lg">Browse Courses</a>
+            <a href="#downloads" class="btn btn-secondary btn-lg btn-outline">Download App</a>
+          </div>
+        </div>
+
+        <!-- Hero Carousel -->
+        <div class="hero-carousel-wrapper">
+          <div class="hero-carousel" id="promos-carousel">
+            <!-- Slide 1 -->
+            <div class="carousel-slide active">
+              <div class="promo-card">
+                <span class="promo-badge badge-teal">New Batch</span>
+                <h3>CG PSC Pre Test Series 2025-26</h3>
+                <p>Comprehensive 50+ mock tests with detailed video solutions and rank analysis.</p>
+                <div class="promo-price">
+                  <span class="strike">₹1999</span>
+                  <span class="current-price">₹499</span>
+                </div>
+                <button class="btn btn-primary full-width">View Details</button>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+              <div class="promo-card">
+                <span class="promo-badge badge-purple">Trending</span>
+                <h3>CG Vyapam Foundation Batch</h3>
+                <p>Complete syllabus coverage with live classes, PDF notes, and doubt sessions.</p>
+                <div class="promo-price">
+                  <span class="strike">₹4999</span>
+                  <span class="current-price">₹1499</span>
+                </div>
+                <button class="btn btn-primary full-width">View Details</button>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+              <div class="promo-card">
+                <span class="promo-badge badge-accent">Limited Offer</span>
+                <h3>Hostel Warden Special Crash Course</h3>
+                <p>Intensive 45-day course focused on high-weightage topics and PYQs.</p>
+                <div class="promo-price">
+                  <span class="strike">₹1499</span>
+                  <span class="current-price">₹299</span>
+                </div>
+                <button class="btn btn-primary full-width">View Details</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-btn prev-btn" aria-label="Previous Slide">&larr;</button>
+          <button class="carousel-btn next-btn" aria-label="Next Slide">&rarr;</button>
+          <div class="carousel-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories-section section-padding bg-alt">
+      <div class="container">
+        <div class="section-header center">
+          <h2>Browse by Category</h2>
+          <p>Find exactly what you need to accelerate your preparation</p>
+        </div>
+        <div class="grid categories-grid">
+          <!-- Category Cards (staggered animation class) -->
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.1s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>CG PSC</h3>
+            <p>Pre & Mains</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.2s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>CG Vyapam</h3>
+            <p>All Exams</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.3s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>Teaching Exams</h3>
+            <p>TET & Shikshak</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.4s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>E-Books & Notes</h3>
+            <p>PDF Downloads</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.1s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>YT Class Notes</h3>
+            <p>Free PDFs</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.2s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>Study Material</h3>
+            <p>Free Resources</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.3s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>Test Series</h3>
+            <p>Mock Tests</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+          <a href="#" class="category-card anim-trigger fade-up" style="transition-delay: 0.4s;">
+            <img src="book.svg" alt="Category Icon" class="cat-icon">
+            <h3>Job Alerts</h3>
+            <p>Latest Updates</p>
+            <span class="explore-link">Explore &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Courses Section -->
+    <section id="courses" class="courses-section section-padding">
+      <div class="container">
+        <div class="section-header center mb-large">
+          <h2>Featured Programs</h2>
+          <p>Join our top-rated courses and test series chosen by thousands of successful aspirants.</p>
+        </div>
+        <div class="grid courses-grid">
+          <!-- Course Card 1 -->
+          <div class="course-card anim-trigger slide-in-bottom" style="transition-delay: 0.1s;">
+            <div class="course-image-placeholder" style="background-image: url('images/cgpsc.png'); background-size: cover; background-position: center;">
+              <span class="pill pill-new">NEW</span>
+            </div>
+            <div class="course-content">
+              <span class="badge badge-teal mb-small">CG Vyapam</span>
+              <h3 class="course-title">RI & Amin Complete Live Batch 2026</h3>
+              <div class="course-meta">
+                <span>150+ Hours</span>
+                <span>• Live + VOD</span>
+              </div>
+              <div class="course-footer">
+                <div class="price-block">
+                  <span class="price-discount">60% OFF</span>
+                  <div class="price-row">
+                    <span class="price-current">₹1199</span>
+                    <span class="price-old">₹2999</span>
+                  </div>
+                </div>
+                <button class="btn btn-primary btn-sm">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Course Card 2 -->
+          <div class="course-card anim-trigger slide-in-bottom" style="transition-delay: 0.2s;">
+            <div class="course-image-placeholder bg-gradient-2" style="background-image: url('images/cgvyapam.png'); background-size: cover; background-position: center;">
+              <span class="pill pill-hot">HOT</span>
+            </div>
+            <div class="course-content">
+              <span class="badge badge-purple mb-small">CG PSC</span>
+              <h3 class="course-title">CG PSC Prelims Brahmastra Test Series</h3>
+              <div class="course-meta">
+                <span>75 Mock Tests</span>
+                <span>• Bilingual</span>
+              </div>
+              <div class="course-footer">
+                <div class="price-block">
+                  <span class="price-discount">75% OFF</span>
+                  <div class="price-row">
+                    <span class="price-current">₹499</span>
+                    <span class="price-old">₹1999</span>
+                  </div>
+                </div>
+                <button class="btn btn-primary btn-sm">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Course Card 3 -->
+          <div class="course-card anim-trigger slide-in-bottom" style="transition-delay: 0.3s;">
+            <div class="course-image-placeholder bg-gradient-3" style="background-image: url('images/teachingexam.png'); background-size: cover; background-position: center;">
+            </div>
+            <div class="course-content">
+              <span class="badge badge-accent mb-small">Teaching Exam</span>
+              <h3 class="course-title">CG TET Paper 1 & 2 Target Batch</h3>
+              <div class="course-meta">
+                <span>Study Notes</span>
+                <span>• Expert Faculty</span>
+              </div>
+              <div class="course-footer">
+                <div class="price-block">
+                  <span class="price-discount">50% OFF</span>
+                  <div class="price-row">
+                    <span class="price-current">₹1499</span>
+                    <span class="price-old">₹2999</span>
+                  </div>
+                </div>
+                <button class="btn btn-primary btn-sm">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section section-padding bg-alt">
+      <div class="container">
+        <div class="section-header center mb-large">
+          <h2>What Our Students Say</h2>
+          <p>Read inspiring success stories from our alumni</p>
+        </div>
+        <div class="grid testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card anim-trigger fade-in" style="transition-delay: 0.1s;">
+            <div class="quote-icon">"</div>
+            <p class="testimonial-text">"The structured timetable and extremely supportive faculty helped me clear CG PSC Prelims on my very first attempt. The mock test analysis was a game-changer!"</p>
+            <div class="student-info">
+              <div class="student-avatar placeholder-avatar">R</div>
+              <div>
+                <h4 class="student-name">Rahul Sharma</h4>
+                <p class="student-tag">CG PSC Aspirant</p>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card anim-trigger fade-in" style="transition-delay: 0.2s;">
+            <div class="quote-icon">"</div>
+            <p class="testimonial-text">"ExamMaster's Vyapam Foundation course provided me with the most precise notes. The live doubt sessions are incredibly helpful and encouraging."</p>
+            <div class="student-info">
+              <div class="student-avatar placeholder-avatar">S</div>
+              <div>
+                <h4 class="student-name">Sneha Verma</h4>
+                <p class="student-tag">CG Vyapam Selected</p>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card anim-trigger fade-in" style="transition-delay: 0.3s;">
+            <div class="quote-icon">"</div>
+            <p class="testimonial-text">"I relied completely on their TET Test Series. The questions were exactly on the exam pattern and helped me manage my time perfectly in the real exam."</p>
+            <div class="student-info">
+              <div class="student-avatar placeholder-avatar">A</div>
+              <div>
+                <h4 class="student-name">Amit Kumar</h4>
+                <p class="student-tag">CG TET Aspirant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Contact Section -->
+    <section class="about-contact-wrapper section-padding">
+      <div class="container">
+        <div class="dual-layout">
+          
+          <!-- About Column -->
+          <div id="about" class="about-column anim-trigger slide-in-left">
+            <span class="badge badge-blue mb-small">Know Us Better</span>
+            <h2 class="mb-medium">About Achievers Academy</h2>
+            <p class="mb-medium">We are central India's leading coaching institute exclusively dedicated to CG PSC and CG Vyapam examinations. With a legacy of creating toppers, we bridge the gap between rural aspirants and top-tier education through our hybrid tech platform.</p>
+            <ul class="feature-list">
+              <li>
+                <div class="list-icon">✓</div>
+                <span><strong>Experienced Faculty:</strong> Learn from subject matter experts and standard authors.</span>
+              </li>
+              <li>
+                <div class="list-icon">✓</div>
+                <span><strong>Hybrid Classes:</strong> Attend offline or join live interactive sessions from anywhere.</span>
+              </li>
+              <li>
+                <div class="list-icon">✓</div>
+                <span><strong>Rigorous Mock Tests:</strong> Closely aligned with the latest commission exam patterns.</span>
+              </li>
+              <li>
+                <div class="list-icon">✓</div>
+                <span><strong>Structured Timetable:</strong> Disciplined approach to cover vast syllabus on time.</span>
+              </li>
+            </ul>
+            <div class="about-illustration mt-large"></div>
+          </div>
+
+          <!-- Contact Column -->
+          <div id="contact" class="contact-column anim-trigger slide-in-right">
+            <div class="contact-card">
+              <h3 class="mb-small">Get in Touch</h3>
+              <p class="text-muted mb-medium">Have questions? Fill out the form below and our counselor will call you.</p>
+              <form id="contact-form" class="form">
+                <div class="form-group">
+                  <label for="name">Full Name <span class="required">*</span></label>
+                  <input type="text" id="name" placeholder="E.g. John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number <span class="required">*</span></label>
+                  <input type="tel" id="phone" placeholder="10-digit mobile number" required pattern="[0-9]{10}">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                <div id="contact-success" class="alert success hidden mt-small">Message sent successfully! We will contact you soon.</div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Col -->
+        <div class="footer-col brand-col">
+          <div class="logo mb-medium">
+            <div class="logo-icon"></div>
+            <span>Achievers Academy</span>
+          </div>
+          <p class="text-muted mb-medium">Empowering aspirants to achieve their dreams with expert guidance, premium study materials, and rigorous testing.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Facebook">F</a>
+            <a href="#" class="social-icon" aria-label="Twitter">T</a>
+            <a href="#" class="social-icon" aria-label="YouTube">Y</a>
+            <a href="#" class="social-icon" aria-label="Instagram">I</a>
+          </div>
+        </div>
+        
+        <!-- Quick Links Col -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#test-series">Test Series</a></li>
+            <li><a href="#study-material">Free Study Material</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Legal Col -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refund & Cancellation</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+
+        <!-- Download App Col -->
+        <div class="footer-col app-col" id="downloads">
+          <h4 class="footer-heading">Download App</h4>
+          <p class="text-muted mb-medium">Study on the go with our official mobile and desktop applications.</p>
+          <div class="app-buttons">
+            <button class="btn btn-app"><div class="app-icon">A</div> <span>Get it on <br><strong>App Store</strong></span></button>
+            <button class="btn btn-app"><div class="app-icon">G</div> <span>Get it on <br><strong>Google Play</strong></span></button>
+            <button class="btn btn-app"><div class="app-icon">W</div> <span>Download for <br><strong>Windows</strong></span></button>
+            <button class="btn btn-app"><div class="app-icon">M</div> <span>Download for <br><strong>Mac</strong></span></button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Achievers Academy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Login Modal -->
+  <div class="modal-overlay" id="login-modal">
+    <div class="modal-container">
+      <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
+      <div class="modal-header">
+        <h2 class="modal-title">Login to Your Account</h2>
+        <p class="text-muted">Welcome back! Please enter your details.</p>
+      </div>
+      <div class="modal-body">
+        <form id="login-form">
+          <div class="form-group">
+            <label for="login-email">Email / Phone</label>
+            <input type="text" id="login-email" placeholder="Enter your email or phone" required>
+          </div>
+          <div class="form-group">
+            <div class="flex-between">
+              <label for="login-password">Password</label>
+              <a href="#" class="forgot-link text-primary text-small">Forgot Password?</a>
+            </div>
+            <input type="password" id="login-password" placeholder="Enter your password" required>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me" class="text-small">Remember me for 30 days</label>
+          </div>
+          <button type="submit" class="btn btn-primary full-width mb-medium">Login</button>
+          <button type="button" class="btn btn-secondary btn-outline full-width" id="modal-dismiss">Cancel</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <p class="text-small text-center">Don't have an account? <a href="#" class="text-primary font-medium">Sign up</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
